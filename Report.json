@@ -1,1 +1,50 @@
 
+===== DELIVERY SIMULATION =====
+
+Package P1
+Warehouse : W1
+Assigned Agent : A1
+Distance to Warehouse : 7.07
+Distance to Destination : 50.00
+Total Distance : 57.07
+Delay : 5 mins
+----------------------------------------
+Package P2
+Warehouse : W2
+Assigned Agent : A2
+Distance to Warehouse : 18.03
+Distance to Destination : 25.00
+Total Distance : 43.03
+Delay : 2 mins
+----------------------------------------
+Package P3
+Warehouse : W3
+Assigned Agent : A3
+Distance to Warehouse : 7.07
+Distance to Destination : 7.07
+Total Distance : 14.14
+Delay : 0 mins
+----------------------------------------
+Package P4
+Warehouse : W1
+Assigned Agent : A1
+Distance to Warehouse : 50.00
+Distance to Destination : 14.14
+Total Distance : 64.14
+Delay : 2 mins
+----------------------------------------
+Package P5
+Warehouse : W2
+Assigned Agent : A2
+Distance to Warehouse : 25.00
+Distance to Destination : 11.18
+Total Distance : 36.18
+Delay : 0 mins
+----------------------------------------
+
+===== ASCII ROUTE VISUALIZATION =====
+W1 ---> [30, 40]
+W2 ---> [70, 90]
+W3 ---> [105, 20]
+W1 ---> [10, 10]
+W2 ---> [40, 80]
